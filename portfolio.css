@@ -1,0 +1,79 @@
+body {
+  height: 100%;
+  font-family: 'Avenir Next';
+  font-weight: lighter;
+}
+
+.logo {
+  width: 2.8%;
+  position: fixed;
+  left: 90.5%;
+  top: 3%;
+  transition: transform 2s;
+}
+
+.logo:hover , .pinterest:hover , .instagram:hover , .codepen:hover{
+  transform: scale(0.8);
+}
+
+.instagram {
+  position: fixed;
+  width: 3.5%;
+  top: 9%;
+  right: 6.4%;
+  transition: transform 2s;
+}
+
+.pinterest {
+  position: fixed;
+  width: 3.2%;
+  top: 9.2%;
+  right: 2.4%;
+  transition: transform 2s;
+}
+
+.codepen {
+  position: fixed;
+  width: 2.8%;
+  top: 3%;
+  right: 2.7%;
+  transition: transform 2s;
+}
+
+.band {
+  position: fixed;
+  width: 12.3%;
+  height: 100%;
+  right: 0px;
+}
+
+.beelden {
+  position: relative;
+  width: 45%;
+}
+
+.beelden img {
+  width: 100%;
+  display: block;
+  margin-left: 95%;
+}
+
+header {
+  margin: 15px;
+  position: fixed;
+  width: 35%;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+footer {
+  font-size: 75%;
+  margin: 15px;
+  margin-left: 42.6%;
+}
+
+.beelden .foto {
+  display: ;
+}
